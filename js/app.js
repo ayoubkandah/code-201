@@ -1,6 +1,7 @@
-function doscript(){
 
-'use strict'
+function doscript(){
+      'use strict'
+
 var name = prompt("whats your name?")
 var answer1=prompt("i am a doctor ? Y/N ")
 var answer2=prompt("my name is ayoub ? Y/N ")
