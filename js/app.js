@@ -33,6 +33,7 @@ while (answer3.toLowerCase()!=="n" &&  answer3.toLowerCase()!=="no"){
 if (answer3.toLowerCase()=="n" || answer3.toLowerCase()=="no"){
     grade++;
 } 
+      
 var answer4=prompt("I am a game developer ? Y/N ")
 while (answer4.toLowerCase()!=="y" && answer4.toLowerCase()!=="yes"){
     alert("wrong answer")
