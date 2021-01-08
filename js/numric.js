@@ -2,7 +2,7 @@
 
 function startgame(){
 'use strict'
-var numanswer1=prompt("0>number<20"+" guess a number?");
+var numanswer1=prompt("0<number<20"+" guess a number?");
 
 var grade=0;
 var triger1=false;
@@ -97,13 +97,13 @@ while(numanswer4!=8){
     
     if(numanswer4 >=3 && numanswer4 <=13&&numanswer4!=8){
         alert("wrong answer (too high)")
-var numanswer4=prompt("0>number<50"+" guess a number?");
+var numanswer4=prompt("0<number<50"+" guess a number?");
 parseInt(numanswer4);
     }
     
         if (numanswer4<3 || numanswer4>13){
             alert("wrong answer (too low)")
-            var numanswer4=prompt("0>number<50"+" guess a number?");
+            var numanswer4=prompt("0<number<50"+" guess a number?");
     parseInt(numanswer4);
         }
     
